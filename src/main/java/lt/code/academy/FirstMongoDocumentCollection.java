@@ -6,7 +6,7 @@ import com.mongodb.client.MongoDatabase;
 import lt.code.academy.client.MongoClientProvider;
 import org.bson.Document;
 
-public class CFirstMongoDocumentCollection {
+public class FirstMongoDocumentCollection {
     public static void main(String[] args) {
         //1 step
         MongoClient client = (MongoClient) MongoClientProvider.getClient();
