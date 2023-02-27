@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03b6c2d9-c9cf-480c-94ea-b76d5b76e8ed" name="Changes" comment="MongClient">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/MongoCollectionDeleteExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/MongoCollectionUpdateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/client/MongoDocumentConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/data/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/FirstMongoDocumentCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/FirstMongoDocumentCollection.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MongoCollectionUpdateExample">
+  <component name="RunManager" selected="Application.MongoDocumentConverter">
     <configuration name="FirstMongoDocumentCollection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lt.code.academy.FirstMongoDocumentCollection" />
       <module name="mongoHeaven" />
@@ -88,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFirsMongoClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lt.code.academy.MyFirsMongoClient" />
+    <configuration name="MongoDocumentConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lt.code.academy.client.MongoDocumentConverter" />
       <module name="mongoHeaven" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lt.code.academy.*" />
+          <option name="PATTERN" value="lt.code.academy.client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MongoDocumentConverter" />
         <item itemvalue="Application.MongoCollectionUpdateExample" />
         <item itemvalue="Application.FirstMongoDocumentCollection" />
         <item itemvalue="Application.MongoCollectionDeleteExample" />
         <item itemvalue="Application.MyFirsMongoCollection" />
-        <item itemvalue="Application.MyFirsMongoClient" />
       </list>
     </recent_temporary>
   </component>
@@ -169,7 +168,13 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1677517088680</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="MongClient">
+      <created>1677523488443</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1677523488443</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
