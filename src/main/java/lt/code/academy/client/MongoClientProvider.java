@@ -7,8 +7,7 @@ public class MongoClientProvider {
 
     private static MongoClient client;
 
-    private MongoClientProvider() {
-    }
+    private MongoClientProvider() {}
 
     public static MongoClient getClient() {
         if (client == null) {
@@ -17,4 +16,6 @@ public class MongoClientProvider {
 
         return client;
     }
+    //del konvertavimo
+
 }

@@ -19,7 +19,7 @@ public class MongoDocumentConverter {
         List<User> users = new ArrayList<>();
         FindIterable<Document> documents = userCollection.find();
         for(Document document: documents) {
-            users.add(new User(document.getObjectId("_id").toString(),
+            users.add(new User(document.getObjectId("_id"),
                     document.getString("name"),
                     document.getString("surname"),
                     document.getInteger("age"),
