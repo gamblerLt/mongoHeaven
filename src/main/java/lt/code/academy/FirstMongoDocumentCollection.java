@@ -28,8 +28,12 @@ public class FirstMongoDocumentCollection {
                 .append("age", 55)
                 .append("phone", "+66666666");
 
+        Document thirdDocument= new Document("name", "Anatolijus")
+                .append("age", 955)
+                .append("phone", "+667777");
+
         //users.insertOne(document);
-        users.insertMany(List.of(document, secondDocument));
+        users.insertMany(List.of(document, secondDocument, thirdDocument));
 
         FindIterable<Document> usersResults = users.find();
 
