@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="03b6c2d9-c9cf-480c-94ea-b76d5b76e8ed" name="Changes" comment="MongClient">
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/client/MongoObjectClientProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/client/MongoObjectCollectionExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/client/MongoClientProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/client/MongoClientProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/client/MongoDocumentConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/client/MongoDocumentConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/data/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/data/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lt/code/academy/client/MongoObjectCollectionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lt/code/academy/client/MongoObjectCollectionExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -183,7 +179,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1677524683552</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="MongClient">
+      <created>1677527692574</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1677527692574</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
